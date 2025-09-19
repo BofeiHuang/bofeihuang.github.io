@@ -95,12 +95,7 @@ body {
     margin-bottom: 0.75rem;
     color: rgba(255, 255, 255, 0.95);
 }
-.different-page h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    color: rgba(255, 255, 255, 0.95);
-}
+
 /* About Me Section */
 .about-me p {
     font-size: 0.8rem;
@@ -157,38 +152,6 @@ body {
 }
 
 .relate-link a:hover {
-    color: #ffeaa7;
-    text-decoration-color: #ffeaa7;
-    transform: translateX(3px);
-}
-
-/* different page */
-.different-page {
-    margin-top: 1.2rem;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.different-page h3 {
-    font-size: 0.95rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    color: rgba(255, 255, 255, 0.95);
-}
-
-.different-page a {
-    display: block;
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: rgba(255, 255, 255, 0.4);
-    font-size: 0.7rem;
-    line-height: 1.3;
-    margin-bottom: 0.4rem;
-    padding: 0.25rem 0;
-    transition: all 0.3s ease;
-}
-
-.different-page a:hover {
     color: #ffeaa7;
     text-decoration-color: #ffeaa7;
     transform: translateX(3px);
@@ -371,17 +334,59 @@ body {
     line-height: 1.6;
 }
 
-.about-content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+/* Education Grid */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
-.about-content p {
-    font-size: 1.1rem;
-    color: #666;
-    line-height: 1.8;
+.education-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(30px);
 }
+
+.education-card.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.education-card h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.education-card h4 {
+    color: #667eea;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.education-year {
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.education-card p:last-child {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
 /* Small Projects Grid */
 .projects-grid-small {
     display: grid;
