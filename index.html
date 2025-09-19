@@ -1,71 +1,324 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <title>Your Name - Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- 动态背景粒子 -->
-    <div class="particles" id="particles"></div>
-
-    <div class="container">
-        <div class="logo">
-            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 0C5.374 0 0 5.373 0 12C0 17.302 3.438 21.8 8.207 23.387C8.806 23.498 9.025 23.126 9.025 22.81C9.025 22.525 9.015 21.749 9.01 20.424C5.672 21.14 4.968 18.896 4.968 18.896C4.421 17.548 3.634 17.177 3.634 17.177C2.545 16.438 3.717 16.452 3.717 16.452C4.922 16.534 5.555 17.693 5.555 17.693C6.625 19.577 8.364 19.048 9.05 18.745C9.158 17.975 9.467 17.446 9.81 17.152C7.145 16.855 4.344 15.842 4.344 11.29C4.344 9.99 4.809 8.931 5.579 8.1C5.444 7.802 5.039 6.586 5.684 4.942C5.684 4.942 6.689 4.622 8.984 6.165C9.944 5.911 10.964 5.784 11.984 5.779C13.004 5.784 14.024 5.911 14.984 6.165C17.264 4.622 18.269 4.942 18.269 4.942C18.914 6.586 18.509 7.802 18.389 8.1C19.154 8.931 19.619 9.99 19.619 11.29C19.619 15.851 16.814 16.852 14.144 17.146C14.564 17.518 14.954 18.243 14.954 19.369C14.954 20.995 14.939 22.307 14.939 22.81C14.939 23.129 15.149 23.504 15.764 23.386C20.565 21.795 24 17.3 24 12C24 5.373 18.627 0 12 0Z" fill="currentColor"/>
-            </svg>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Your Name</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <h1 class="title">Coming Soon</h1>
-        <p class="subtitle">Coming Soon...</p>
-        
-        <div class="description">
-            <p>Coming Soon</p>
-            <p>Coming Soon</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="avatar">
+                <img src="https://via.placeholder.com/200x200/667eea/ffffff?text=Avatar" alt="Profile Picture">
+            </div>
+            <h1 class="hero-title">Hello, I'm <span class="highlight">Your Name</span></h1>
+            <p class="hero-subtitle">Full Stack Developer | Tech Enthusiast | Lifelong Learner</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
         </div>
+    </section>
 
-        <div class="social-links">
-            <a href="https://github.com" class="social-link" target="_blank" rel="noopener noreferrer">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 0C5.374 0 0 5.373 0 12C0 17.302 3.438 21.8 8.207 23.387C8.806 23.498 9.025 23.126 9.025 22.81C9.025 22.525 9.015 21.749 9.01 20.424C5.672 21.14 4.968 18.896 4.968 18.896C4.421 17.548 3.634 17.177 3.634 17.177C2.545 16.438 3.717 16.452 3.717 16.452C4.922 16.534 5.555 17.693 5.555 17.693C6.625 19.577 8.364 19.048 9.05 18.745C9.158 17.975 9.467 17.446 9.81 17.152C7.145 16.855 4.344 15.842 4.344 11.29C4.344 9.99 4.809 8.931 5.579 8.1C5.444 7.802 5.039 6.586 5.684 4.942C5.684 4.942 6.689 4.622 8.984 6.165C9.944 5.911 10.964 5.784 11.984 5.779C13.004 5.784 14.024 5.911 14.984 6.165C17.264 4.622 18.269 4.942 18.269 4.942C18.914 6.586 18.509 7.802 18.389 8.1C19.154 8.931 19.619 9.99 19.619 11.29C19.619 15.851 16.814 16.852 14.144 17.146C14.564 17.518 14.954 18.243 14.954 19.369C14.954 20.995 14.939 22.307 14.939 22.81C14.939 23.129 15.149 23.504 15.764 23.386C20.565 21.795 24 17.3 24 12C24 5.373 18.627 0 12 0Z"/>
-                </svg>
-                <span>GitHub</span>
-            </a>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate full-stack developer with experience in modern web technologies. I love creating efficient, scalable, and user-friendly applications that solve real-world problems.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Technologies Mastered</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="progress-bar">
-            <div class="progress-fill"></div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=Project+1" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="projects/ecommerce.html" class="btn btn-sm btn-primary">View Details</a>
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/764ba2/ffffff?text=Project+2" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">A collaborative task management application built with Vue.js and Firebase. Real-time updates, team collaboration, and progress tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="projects/taskmanager.html" class="btn btn-sm btn-primary">View Details</a>
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/f093fb/ffffff?text=Project+3" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">A responsive weather application with location-based forecasts, interactive maps, and data visualization using Chart.js.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="projects/weather.html" class="btn btn-sm btn-primary">View Details</a>
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/4facfe/ffffff?text=Project+4" alt="Project 4">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Chat Bot</h3>
+                        <p class="project-description">An intelligent chatbot powered by machine learning algorithms. Natural language processing and context-aware responses.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="projects/chatbot.html" class="btn btn-sm btn-primary">View Details</a>
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/00d4aa/ffffff?text=Project+5" alt="Project 5">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">A responsive portfolio website showcasing design skills and web development projects. Built with modern CSS and smooth animations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">SASS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="projects/portfolio.html" class="btn btn-sm btn-primary">View Details</a>
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/ff6b6b/ffffff?text=Project+6" alt="Project 6">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Data Visualization Tool</h3>
+                        <p class="project-description">Interactive data visualization dashboard for business analytics. Real-time charts, filtering, and export capabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="projects/dataviz.html" class="btn btn-sm btn-primary">View Details</a>
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p class="progress-text">test</p>
-    </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">GraphQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Redis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Webpack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate or just say hello!</p>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            <span class="contact-icon">📧</span>
+                            your.email@example.com
+                        </a>
+                        <a href="https://github.com" target="_blank" class="contact-link">
+                            <span class="contact-icon">🐙</span>
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="contact-link">
+                            <span class="contact-icon">💼</span>
+                            LinkedIn
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="contact-link">
+                            <span class="contact-icon">🐦</span>
+                            Twitter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script>
-        // 创建动态粒子效果
-        function createParticles() {
-            const particlesContainer = document.getElementById('particles');
-            const particleCount = 50;
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
 
-            for (let i = 0; i < particleCount; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.animationDelay = Math.random() * 6 + 's';
-                particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
-                particlesContainer.appendChild(particle);
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
             }
-        }
+        });
 
-        // 页面加载完成后创建粒子
-        document.addEventListener('DOMContentLoaded', createParticles);
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
 
-        // 添加鼠标移动效果
-        document.addEventListener('mousemove', (e) => {
-            const container = document.querySelector('.container');
-            const x = (e.clientX - window.innerWidth / 2) / window.innerWidth;
-            const y = (e.clientY - window.innerHeight / 2) / window.innerHeight;
-            
-            container.style.transform = `translate(${x * 10}px, ${y * 10}px)`;
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.project-card, .skill-category').forEach(el => {
+            observer.observe(el);
         });
     </script>
 </body>
