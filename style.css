@@ -138,6 +138,44 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Related Links Section */
+.relate-link {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.relate-link h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.relate-link .inline-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.relate-link .inline-link:last-child {
+    border-bottom: none;
+}
+
+.relate-link .inline-link:hover {
+    color: #ffeaa7;
+    transform: translateX(5px);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
 /* Social Links */
 .social-links {
     display: flex;
@@ -614,18 +652,6 @@ body {
 .btn-outline-small:hover {
     background: #667eea;
     color: white;
-}
-
-.inline-link {
-    color: inherit;
-    text-decoration: underline;
-    text-decoration-color: rgba(255, 255, 255, 0.5);
-    transition: all 0.3s ease;
-}
-
-.inline-link:hover {
-    text-decoration-color: rgba(255, 255, 255, 1);
-    color: #ffeaa7;
 }
 
 /* Responsive adjustments for small projects */
