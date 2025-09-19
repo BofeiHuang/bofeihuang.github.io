@@ -266,21 +266,6 @@ body {
 }
 
 /* Timeline for Experience/Achievements */
-.experience-timeline {
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.experience-timeline::before {
-    content: '';
-    position: absolute;
-    left: 2rem;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-}
 
 .timeline-item {
     position: relative;
@@ -332,6 +317,18 @@ body {
 .timeline-content p {
     color: #666;
     line-height: 1.6;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.8;
 }
 /* Small Projects Grid */
 .projects-grid-small {
