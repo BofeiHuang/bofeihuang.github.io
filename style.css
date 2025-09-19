@@ -303,6 +303,21 @@ body {
 }
 
 /* Timeline for Experience/Achievements */
+.experience-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.experience-timeline::before {
+    content: '';
+    position: absolute;
+    left: 2rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
 
 .timeline-item {
     position: relative;
