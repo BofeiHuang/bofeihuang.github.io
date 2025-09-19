@@ -143,6 +143,8 @@ body {
     margin-top: 2rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
 }
 
 .relate-link h3 {
@@ -150,6 +152,36 @@ body {
     font-weight: 600;
     margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.95);
+}
+
+.relate-link a {
+    display: block !important;
+    color: white !important;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem !important;
+    line-height: 1.4;
+    margin-bottom: 0.75rem !important;
+    padding: 0.4rem 0;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.relate-link a:hover {
+    color: #ffeaa7 !important;
+    text-decoration-color: #ffeaa7;
+    transform: translateX(5px);
+}
+
+/* Override any conflicting inline-link styles */
+.relate-link .inline-link {
+    display: block !important;
+    color: white !important;
+    font-size: 0.85rem !important;
+    margin-bottom: 0.75rem !important;
+}
+
+/* Social Links */ 0.95);
 }
 
 .relate-link .inline-link {
