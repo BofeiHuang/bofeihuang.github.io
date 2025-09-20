@@ -569,6 +569,52 @@ body {
     color: white;
 }
 
+/* Research Interests - Additional Styles */
+.research-topic {
+    margin-bottom: 2rem;
+}
+
+.research-topic h3 {
+    font-size: 1.3rem;
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.research-content {
+    margin-left: 1rem;
+}
+
+.research-content p {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
+.skill-category {
+    margin-bottom: 1.5rem;
+}
+
+.skill-category h3 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.skill-list {
+    margin-left: 1rem;
+    line-height: 1.6;
+}
+
+.application-list {
+    margin-left: 2rem;
+    line-height: 1.6;
+}
+
+.application-list li {
+    margin-bottom: 0.5rem;
+}
+
 .back-home {
     position: fixed;
     top: 20px;
