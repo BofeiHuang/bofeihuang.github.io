@@ -30,7 +30,7 @@ body {
 .sidebar {
     width: 350px;
     height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4d6e79 0%, #102073 100%);
     color: white;
     position: fixed;
     left: 0;
@@ -223,7 +223,7 @@ body {
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #4d6e79, #102073);
     border-radius: 2px;
 }
 
@@ -429,7 +429,7 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #4d6e79, #102073);
     color: white;
 }
 
@@ -490,7 +490,7 @@ body {
     color: #333;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #102073;
     font-weight: 600;
 }
 
@@ -619,7 +619,7 @@ body {
     position: fixed;
     top: 20px;
     left: 20px;
-    background: #667eea;
+    background: #4d6e79;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
