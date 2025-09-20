@@ -613,6 +613,12 @@ body {
     line-height: 1.6;
 }
 
+.publication-item .paper-title {
+    font-weight: 600;
+    color: #333;
+    margin: 0.2rem 0;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .sidebar {
