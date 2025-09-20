@@ -614,7 +614,7 @@ body {
 }
 
 .publication-item .paper-title {
-    font-weight: 600;
+    font-weight: bold;
     color: #333;
     margin: 0.2rem 0;
 }
